@@ -100,18 +100,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="imagetracking.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Test Your Camera</a> <!-- camera -->
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="imagetracking.html" class="w3-bar-item w3-button w3-padding-large">Test Your Camera</a> <!-- camera -->
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Web-based AR Application</h1>
-  <p class="w3-xlarge">Web by <b>Muhammad Muadz bin Jamain</b> & <b>Amir Syafiq bin Zamri</b></p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Start Convert & Tracking</button>
+  <p class="w3-xlarge">Web by <b>Muhammad Muadz</b> & <b>Amir Syafiq</b></p>
+  <a href="#imageContainer" onclick="w3_close()" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Start Convert & Tracking</a>
 </header>
 
 <!-- First Grid -->
@@ -153,14 +155,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 <button id="buttonDownloadEncoded" class="btn btn-primary" type="button">Download Marker (.patt)</button>
                 
 
-            </div>
-
-        <!-- Camera -->
-        </div>
-        <div class="intro" style="text-align: center;height: 350px;">
-            <h2 class="text-center">Test Your Camera</h2>
-            <p class="text-center">Display the generated marker using your camera</p><br><br>
-            <a href="imagetracking.html" class="btn btn-primary" style="background: rgb(11, 189, 62);">Open Your Camera</a>
         </div>
     </div>
 </div>
